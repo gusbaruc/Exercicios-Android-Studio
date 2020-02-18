@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    tools:context=".Restaurante">
+
+    <EditText
+        android:id="@+id/text_ConTot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="Informe o consumo total:"
+        android:inputType="number"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/text_CouvArt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="Informe o valor do Couvert Artístico: "
+        android:inputType="number"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/text_DivConta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="Dividir a conta por (qtde de pessoas):"
+        android:inputType="number"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button_Calc"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/darker_gray"
+        android:onClick="click_Calc"
+        android:text="CALCULAR CONTA FINAL"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/label_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="R$"
+        android:text="Taxa de Serviço (10%) :"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/text_TaxServ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="R$"
+        android:inputType="number"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/label_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="R$"
+        android:text="Valor Total:"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/text_ValTot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="R$"
+        android:inputType="number"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/label_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valor por Pessoa:"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/text_ValPess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="R$"
+        android:inputType="number"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button_Close"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@android:color/darker_gray"
+        android:onClick="close"
+        android:text="FECHAR"
+        android:visibility="visible" />
+
+</LinearLayout>

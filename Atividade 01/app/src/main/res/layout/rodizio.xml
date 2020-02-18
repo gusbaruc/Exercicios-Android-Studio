@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    tools:context=".Rodizio">
+
+    <TextView
+        android:id="@+id/label_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Informe a placa do carro:"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/text_Let"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:ems="10"
+        android:hint="A B C"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/text_Num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="1 2 3 4"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button_Verific"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/darker_gray"
+        android:onClick="click_Verific"
+        android:text="Verificar rodízio"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/label_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Final da Placa:"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/text_Fim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="4"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/label_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dia da Semana:"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/text_Semana"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="Terça"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button_Close"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@android:color/darker_gray"
+        android:onClick="close"
+        android:text="Fechar"
+        android:visibility="visible" />
+</LinearLayout>

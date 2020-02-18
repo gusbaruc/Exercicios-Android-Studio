@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Atividade</string>
+    <string name="title_activity_restaurante">Restaurante</string>
+    <string name="title_activity_salario">Cálculo Salário</string>
+    <string name="title_activity_rodizio">Rodizio</string>
+    <string name="digite_a_placa_do_carro">Digite a placa do carro</string>
+    <string name="abc">ABC</string>
+    <string name="_1234">1234</string>
+    <string name="verificar_rodizio">VERIFICAR RODIZIO</string>
+    <string name="final_da_placa">Final da placa</string>
+    <string name="dia_da_semana">Dia da Semana</string>
+    <string name="fechar">FECHAR</string>
+</resources>
